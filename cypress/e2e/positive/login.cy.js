@@ -19,6 +19,6 @@ describe("Sign In", () => {
     Login.buttonHumburgerMenu.click();
     Login.buttonAccountMenu.click();
     Login.buttonLogOut.click();
-    Login.buttonSignIn.should('be.visible');
+    Login.buttonSignIn.should("be.visible");
   });
 });

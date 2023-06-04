@@ -6,6 +6,7 @@ describe("Homepage", () => {
   });
 
   it("Should navigate to the homepage", () => {
+    //Verifications
     HomePage.buttonSignIn.should("contains.text", "Sign in");
     HomePage.buttonGetStartedForFree.should("be.visible");
   });
