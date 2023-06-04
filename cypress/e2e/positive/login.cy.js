@@ -1,5 +1,5 @@
-import Credentials from "../../cypress/fixtures/data/credentials.json";
-import Login from "../../cypress/fixtures/pom/login.page";
+import Credentials from "../../fixtures/data/credentials.json";
+import Login from "../../fixtures/pom/login.page";
 
 // The tests have API status code 307 - Redirection (server problem);
 describe("Sign In", () => {

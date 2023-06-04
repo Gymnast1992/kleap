@@ -1,4 +1,4 @@
-import HomePage from "../../cypress/fixtures/pom/home.page";
+import HomePage from "../../fixtures/pom/home.page";
 
 describe("Homepage", () => {
   beforeEach(() => {

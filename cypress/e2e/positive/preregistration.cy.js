@@ -1,5 +1,5 @@
-import Helpers from "../../cypress/fixtures/data/helpers";
-import Registration from "../fixtures/pom/preregistration.page";
+import Helpers from "../../fixtures/data/helpers";
+import Registration from "../../fixtures/pom/preregistration.page";
 
 const businessName = Helpers.getRandText(7);
 const message = "My first successful business";
