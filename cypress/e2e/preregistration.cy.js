@@ -4,6 +4,10 @@ import Registration from "../fixtures/pom/preregistration.page";
 const businessName = Helpers.getRandText(7);
 const message = "My first successful business";
 
+//In my opinion, this test isn't efficient.
+//It should be running manually.
+//But I would love to show you how I manage it!
+
 describe("Preregistration", () => {
   beforeEach(() => {
     cy.visit("/start-context");
